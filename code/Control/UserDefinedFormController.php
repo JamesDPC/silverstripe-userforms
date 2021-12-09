@@ -290,6 +290,7 @@ JS
 
                         // attach a file only if lower than 1MB
                         // if ($file->getAbsoluteSize() < 1024 * 1024 * 1) {
+                        // Patch: temporarily remove arbitrary 1MB limit
                             $attachments[] = $file;
                         // }
                     }
